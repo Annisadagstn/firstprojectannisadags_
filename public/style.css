@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+  }
+  .login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    background:#000000(4, 29, 23, 0.5);
+    box-shadow: rgba(4, 3, 4, 0.4) -5px 5px,rgba(5, 4, 5, 0.3) -10px 10px, rgba(3, 2, 3, 0.2) -15px 15px, rgba(5, 4, 5, 0.1) -20px 20px, rgba(1, 0, 0, 0.05) -25px 25px;
+    padding: 50px;
+    width: 250px;
+    
+    border-radius: 15px;
+  }
+  .avatar {
+    font-size: 30px ;
+    background: black;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50%;
+  }
+  .login h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    padding-top: 0;
+    margin-top: -20px;
+  }
+  .box-login {
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    border-bottom: 2px solid black;
+    padding: 8px 0;
+  }
+  .box-login i {
+    font-size: 23px;
+    color: white;
+    padding: 5px 0;
+  }
+  .box-login input {
+    width: 85%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+  }
+  .box-login input::placeholder {
+    color: black;
+  }
+  .btn-login
+  .box-login input:hover{
+    background: rgba(10, 10, 10,s 0.5);
+  }
+  .btn-login {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid black;
+    width: 92.5%;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    }
+  .btn-login:hover{
+    background: rgba(12, 30, 15, 0.5);
+  }
+  .bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .bottom a:hover {
+  text-decoration: underline;
+  }
